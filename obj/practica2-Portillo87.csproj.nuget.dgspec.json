@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MINED\\Desktop\\semana 2 de programacion\\Repositorio_Practicas\\practica2-Portillo87\\practica2-Portillo87.csproj": {}
+    "c:\\Users\\MINED\\Desktop\\semana 2 de programacion\\Repositorio_Practicas\\practica2-Portillo87\\practica2-Portillo87.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MINED\\Desktop\\semana 2 de programacion\\Repositorio_Practicas\\practica2-Portillo87\\practica2-Portillo87.csproj": {
+    "c:\\Users\\MINED\\Desktop\\semana 2 de programacion\\Repositorio_Practicas\\practica2-Portillo87\\practica2-Portillo87.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MINED\\Desktop\\semana 2 de programacion\\Repositorio_Practicas\\practica2-Portillo87\\practica2-Portillo87.csproj",
+        "projectUniqueName": "c:\\Users\\MINED\\Desktop\\semana 2 de programacion\\Repositorio_Practicas\\practica2-Portillo87\\practica2-Portillo87.csproj",
         "projectName": "practica2-Portillo87",
-        "projectPath": "C:\\Users\\MINED\\Desktop\\semana 2 de programacion\\Repositorio_Practicas\\practica2-Portillo87\\practica2-Portillo87.csproj",
+        "projectPath": "c:\\Users\\MINED\\Desktop\\semana 2 de programacion\\Repositorio_Practicas\\practica2-Portillo87\\practica2-Portillo87.csproj",
         "packagesPath": "C:\\Users\\MINED\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MINED\\Desktop\\semana 2 de programacion\\Repositorio_Practicas\\practica2-Portillo87\\obj\\",
+        "outputPath": "c:\\Users\\MINED\\Desktop\\semana 2 de programacion\\Repositorio_Practicas\\practica2-Portillo87\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MINED\\AppData\\Roaming\\NuGet\\NuGet.Config"
