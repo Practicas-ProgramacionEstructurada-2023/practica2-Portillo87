@@ -11,7 +11,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
            string? apellido;
 
            // Declaracion de variables de tipo texto  desde codigo 
-           string? codigo_estudiante = "U20230820";
+           string? codigo_estudiantil = "U20230820";
            string? becado = "No";
 
            //Declaracion de variables de tipo enteras capturando desde la terminal
@@ -37,7 +37,9 @@ namespace MyApp// Note: actual namespace depends on the project name.
            //Obtencion de datos desde la terminal
            Console.WriteLine ("Ingrese su nombre:");
            nombre = Convert.ToString(Console.ReadLine());
-           Console.WriteLine("\n");
+           Console.WriteLine("");
+
+
            Console.WriteLine("Ingrese su apellido:");
            apellido = Convert.ToString(Console.ReadLine());
            Console.WriteLine();
@@ -45,15 +47,17 @@ namespace MyApp// Note: actual namespace depends on the project name.
 
            Console.WriteLine("Ingrese su edad:");
            edad = Convert.ToInt32(Console.ReadLine());
-
-           Console.WriteLine("Ingrese su mensualidad:");
+           Console.WriteLine();
+           Console.WriteLine("Ingrese su mensualidad universitaria:");
            mensualidad = Convert.ToDouble(Console.ReadLine());
+           Console.WriteLine();
 
 
            //Impresion de datos 
+           Console.WriteLine("****************************Inicion de impresion**************************");
            Console.WriteLine("Su nombre: " + nombre);
            Console.WriteLine("Su apellido es:" + apellido);
-           Console.WriteLine("Su codigo estudiantil es:" + codigo_estudiante);
+           Console.WriteLine("Su codigo estudiantil es:" + codigo_estudiantil);
            Console.WriteLine("Es becado:" + becado);
            Console.WriteLine("Su edad es:" + edad);
            Console.WriteLine("Su año de ingreso es :" + AñoIngreso);
@@ -64,6 +68,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
            Console.WriteLine("La fecha y tiempo de impresion de datos es:" + fechaActual);
            Console.WriteLine("La fecha que termina la practica es:" + fechaEspecifica);
            Console.WriteLine("*******************************Fin de impresion**************************");
+
 
            Console.WriteLine("****************************Inicion de impresion*************************");
            //APLICACION DE FUNCIONES DE CADENA
@@ -80,12 +85,15 @@ namespace MyApp// Note: actual namespace depends on the project name.
            string? funcionMayuscula2 = apellido.ToUpper();
 
 
+           //Funcion de Concatenado
+           string? cadenaConcatenada = nombre + " " + apellido;
+
+
            //Funcion  de tamaño de cadena
            int iilongituCadena1=nombre.Length;
            int iilongituCadena2=apellido.Length;
            
-           //Funcion de cadena
-           string? cadenaConcatenada = nombre + " " + apellido;
+
 
            Console.WriteLine("Comparacion: " + cadenaComparativa);
            Console.WriteLine("Mayuscula Nombre y Apellido: " + funcionMayuscula1 + " " + funcionMayuscula2);
@@ -94,7 +102,7 @@ namespace MyApp// Note: actual namespace depends on the project name.
            Console.WriteLine("La longitud de datos de nombre es: " + iilongituCadena1);
            Console.WriteLine("La longitud de datos de nombre es: " + iilongituCadena2);
            Console.WriteLine("*******************************Fin de impresion*****************************");
-           
+
 
         }
     }
